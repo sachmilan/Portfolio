@@ -25,7 +25,7 @@
 ## Usage 
 - You can click on the various links provided in the portfolio, to better search abou me. Other than that, you cna always click on the images of my projects to view the projects that I have worked on. lastly, you can cantact me by clicking on the links given at bottom of the bage
 
-![alt text](assets/screenshot1.png)
+![alt text](assets/Screenshot1.png)
 
 ## Features
 
