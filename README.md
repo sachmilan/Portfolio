@@ -16,7 +16,7 @@
 -Open your Git bash application
 -Type in command mkdir sachmilanportfolio
 -By using cd command go into sachmilanportfolio
--Enter git clone 
+-Enter git clone https://github.com/sachmilan/Portfolio.git
 
 ## credits
 
