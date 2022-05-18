@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+
+/*background image and font color customization*/
+body{
+    background-image: url(desert.jpg);
+    background-size: cover;
+    color: aliceblue;
+ }
+
+/*navigaton bar customization*/
+.ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list{
+    flex:1;
+    background:rgb(90, 86, 86);
+}
+
+.anchor{
+    display: block;
+    padding:20px 0px;
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+}
+
+section nav ul{
+    max-width: 100%;
+    max-height: 800px;
+    display: flexbox; 
+}
+
+/*Profile picture, Name and Information customization*/
+#profile{
+display: flex;
+justify-content: center;
+}
+
+#picture{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    margin:30px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+/*Education customization*/
+.education{
+    display: flex;
+    margin:60px;
+    flex-wrap: wrap;
+}
+/*university customization*/
+#university{
+    flex:1;
+    border: 2px solid aliceblue;
+    margin-right: 10px;
+    font-size: 17px;
+    word-spacing: 4px;
+}
+
+#university h2{
+    padding-block: 20px;
+}
+
+/*courses studied customization*/
+.courses{
+    flex:4;
+    border:2px solid aliceblue;
+}
+
+#column{
+    display: inline-block;
+    margin: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#column2{
+    display: inline-block;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 300px;
+}
+
+.colomn1{
+padding: 5px;
+font-size: 20px;
+}
+
+/*Work projects customization*/
+.workimages{
+    max-width: 250px;
+    max-height: 250px;
+    border: 10px solid;
+    border-radius: 20%;
+}
+
+#workheading{
+    text-align: center;
+    display: block;
+    padding: 50px;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+
+.projects{
+    flex:4;
+    flex-wrap: wrap;
+}
+
+/*Contact information customization*/
+.contact{
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    display: block;
+    border: 5px;
+}
+
+#link{
+    padding-top:;
+    display: flex;
+    justify-content: center;
+}
+
+.linked{max-width: 80px;
+    max-height: 80px;
+    border: 5px white;
+    border-radius:50% ;
+    display: block;
+  
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.mediums{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.center1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-left: 130px;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+/*hover effect on the navigation bar customization*/
+.anchor:hover{
+color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+
+/*Responsive layout customization*/
+@media screen and (max-width: 768px) {
+    
+   .ul,.profile,.courses,.projects,.mediums{
+      flex-direction: column;
+    }
+}
